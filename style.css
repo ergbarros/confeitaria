@@ -3,6 +3,32 @@ Folha de estilo do site Artesanato Html5 e CCS3
 @author Edinaldo Barros
 */
 
-body {
-    background-color: rgb(204, 230, 138);
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>> */
+
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px){
+    body{
+        background-color: #e6e61a;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px){
+    body{
+        background-color: #566297;
+    }
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px){
+    body{
+        background-color: #032833;
+    }
+}
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px){
+    body{
+        background-color: #e93535;
+    }
 }
