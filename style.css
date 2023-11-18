@@ -16,19 +16,19 @@ Folha de estilo do site Artesanato Html5 e CCS3
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px){
     body{
-        background-color: #566297;
+        background-color: #dad1ab;
     }
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px){
     body{
-        background-color: #032833;
+        background-color: #dad1ab;
     }
 }
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px){
     body{
-        background-color: #e93535;
+        background-color: #dad1ab;
     }
 }
