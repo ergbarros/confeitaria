@@ -20,10 +20,29 @@ body {
 /* Layout*/
 .Container {
     margin: 0 auto;
-    background-color: #cebd75;
+    background-color: rgb(235, 140, 211);
 }
-
+.Flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #db4db1;
+}
+/* topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>> */
+/* Cabeçalho */
+header {
+    height: 60px ;
+}
+#logo img {
+    width: 90px;
+    height: 90px;
+
+}
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>> */
@@ -65,11 +84,21 @@ body {
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px) {
     body {
-        background-color: #dad1ab;
+        background-color: #e28ac8;
     }
 
     /* Layout */
     .Container {
         max-width: 1140px;
     }
+   /* Cabeçalho */
+header {
+    height: 100px ;
+}
+#logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
 }
