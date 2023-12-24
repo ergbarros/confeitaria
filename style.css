@@ -20,19 +20,25 @@ body {
 /* Layout*/
 .Container {
     margin: 0 auto;
-    background-color: #f8f8f8;
+    background-color: #df1c77;
 }
 .Flex {
     display: flex;
     justify-content: space-between;
-    background-color: #f0c6e2;
+    background-color: #df3da9;
 }
+
+.Flex2 {
+    display: flex;
+    align-items: center;
+}
+
 .Botao{
     text-decoration: none;
     color: #640941;
     font-size: 1.3em;
     font-weight: 700;
-    background-color: #eee8ec;
+    background-color: #eee8eb;
     padding: 10px 40px;
     border: 2px solid #640941;
     border-radius: 25px;
@@ -88,10 +94,11 @@ nav ul li a {
 /* Destaque */
 main {
     height: 75vh;
-    background: url(img/banner2.jpg);
+    background: url(img/banner3.jpg);
     background-size: cover;
-    color: #c43c8f;
-    display: flex;
+    background-position: center;
+    color: #cc1094;
+    display: Flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -104,9 +111,32 @@ main h1 {
 main h2 {
     font-size: 1em;
     margin: 10px 0px 30px 0px;
+}
+/* Sobre */
+#sobre{
+    padding: 50px 0px;
+    background: url(img/back3.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
-
+#destaqueSobre {
+    display: none;
+}
+#textoSobre {
+color: #a10773;
+padding: 0px 10px;
+}
+#textoSobre h2 {
+margin-bottom: 10px;
+}
+.TopicoSobre {
+    margin-top: 20px;
+}
+.TopicoSobre img {
+    border-radius: 10%;
+    margin-right: 10px;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
@@ -122,7 +152,7 @@ text-shadow: #000 0.05em 0.05em 0.05em;
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
-     /* Layout */
+ /* Layout */
     .Container {
         max-width: 720px;
     }
@@ -164,7 +194,7 @@ header {
 #logo img {
     width: 100px;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 label {
     display: none;
@@ -186,6 +216,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #eee8ec;
+    color: #df149b;
+}
+
+/* Sobre */
+#sobre {
+    background-attachment: fixed;
+}
+#destaqueSobre {
+    display: inline;
+}
+#destaqueSobre img {
+    border-radius: 20%;
+    margin-right: 20px;
 }
 }
