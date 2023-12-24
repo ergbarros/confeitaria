@@ -1,5 +1,5 @@
 # HTML5 e CSS3
-Site Artesanato
+Site Delicías da Rê
 ## Links indicado
 ### Planejamentos
 [cetic](https://cetic.br/pt/)
