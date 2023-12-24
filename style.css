@@ -27,6 +27,17 @@ body {
     justify-content: space-between;
     background-color: #f0c6e2;
 }
+.Botao{
+    text-decoration: none;
+    color: #640941;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: #eee8ec;
+    padding: 10px 40px;
+    border: 2px solid #640941;
+    border-radius: 25px;
+
+}
 /* topo do site */
 #topo {
     position: fixed;
@@ -74,6 +85,28 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+/* Destaque */
+main {
+    height: 75vh;
+    background: url(img/bainner1.jpg);
+    background-size: cover;
+    color: #640941;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }  
+
+main h1 {
+    font-size: 2.5em;
+    margin: 20px 0px 20px 0px;
+}
+main h2 {
+    font-size: 1em;
+    margin: 10px 0px 30px 0px;
+
+}
+
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
@@ -81,6 +114,10 @@ nav ul li a {
     .Container {
         max-width: 540px;
     }
+}
+/* Destaque */
+main h1, main h2 {
+text-shadow: #000 0.05em 0.05em 0.05em;
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
@@ -90,6 +127,16 @@ nav ul li a {
         max-width: 720px;
     }
 }
+/* Destaque */
+main {
+    height: 45vh;
+}
+main h1 {
+    font-size: 5.5em;
+}
+main h2 {
+    font-size: 2em;
+}
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
@@ -97,6 +144,11 @@ nav ul li a {
     .Container {
         max-width: 960px;
     }
+}
+/* Destaque */
+main {
+    height: 70vh;
+    
 }
 
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
