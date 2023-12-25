@@ -32,7 +32,11 @@ body {
     display: flex;
     align-items: center;
 }
-
+.Flex3 {
+    display: flex;
+    flex-direction: column;
+    
+}
 .Botao{
     text-decoration: none;
     color: #640941;
@@ -140,6 +144,30 @@ margin-bottom: 10px;
     border-radius: 10%;
     margin-right: 10px;
 }
+/* One Page */
+#onepage {
+    padding: 50px 10px;
+    background: url(img/back4.jpg);
+    background-size: cover;
+    background-position: center;
+    color:  #a10773;
+    display: Flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#onepage h2 {
+    margin-bottom: 10px;
+}
+#onepage p {
+    margin-bottom: 50px;
+}
+
+#video iframe {
+width: 340px;
+height: 191px;
+border: 0;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
@@ -152,6 +180,11 @@ margin-bottom: 10px;
 main h1, main h2 {
 text-shadow: #000 0.05em 0.05em 0.05em;
 }
+/* One Page */
+#video iframe {
+    width: 560px;
+    height: 315px;
+    }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
@@ -170,6 +203,8 @@ main h1 {
 main h2 {
     font-size: 2em;
 }
+
+
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
@@ -201,6 +236,11 @@ header {
 }
 label {
     display: none;
+    font-size: 3em;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    
 }
 
 nav ul {
@@ -233,4 +273,11 @@ nav ul li a:hover {
     border-radius: 20%;
     margin-right: 20px;
 }
+/* One Page */
+
+.Flex3 {
+    flex-direction: row;
+    align-items: center;
+}
+
 }
