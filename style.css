@@ -26,11 +26,15 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #df3da9;
+    
 }
 
 .Flex2 {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
+    
 }
 .Flex3 {
     display: flex;
@@ -103,9 +107,9 @@ main {
     height: 75vh;
     background: url(img/banner3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: row;
     color: #cc1094;
-    display: Flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -125,7 +129,8 @@ main h2 {
     background: url(img/back3.jpg);
     background-size: cover;
     background-position: center;
-
+    
+    
 }
 #destaqueSobre {
     display: none;
@@ -143,14 +148,16 @@ margin-bottom: 10px;
 .TopicoSobre img {
     border-radius: 10%;
     margin-right: 10px;
+    
+
 }
 /* One Page */
 #onepage {
     padding: 50px 10px;
-    background: url(img/back4.jpg);
+    background: url(img/back10.jpg);
     background-size: cover;
     background-position: center;
-    color:  #a10773;
+    color:#42022e;
     display: Flex;
     flex-direction: column;
     justify-content: center;
@@ -160,7 +167,7 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 }
 #onepage p {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #video iframe {
