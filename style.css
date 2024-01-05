@@ -26,21 +26,21 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #df3da9;
-    
 }
-
 .Flex2 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
-    
 }
 .Flex3 {
     display: flex;
     flex-direction: column;
-    
 }
+.Flex4 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
 .Botao{
     text-decoration: none;
     color: #640941;
@@ -50,14 +50,42 @@ body {
     padding: 10px 40px;
     border: 2px solid #640941;
     border-radius: 25px;
-
 }
 /* topo do site */
 #topo {
     position: fixed;
     right: 10px;
     bottom: 10px;
+    font-size: 1.25em;
 }
+/* Cartões */
+.Card {
+    margin-top: 25px;
+    width: 338px;
+    height:450px;
+    background-color: #aa0c6d;
+    border: 2px solid #250318;
+    border-radius: 25px;
+    text-align: center;
+}
+.Card img {
+    border-radius: 45px 45px 45px 45px;
+}
+
+.Card h3 {
+    margin-top: 15px;
+    color: #1f0517;
+}
+.Card p {
+    text-align: center;
+    color: #f5eded;
+    padding: 10px 30px 50px 30px;
+}
+.Card a {
+    padding: 10px 100px;
+    border: 0;
+}
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>> */
 /* Cabeçalho */
 header {
@@ -120,7 +148,7 @@ main h1 {
     margin: 20px 0px 20px 0px;
 }
 main h2 {
-    font-size: 1em;
+    font-size: 2.5em;
     margin: 10px 0px 30px 0px;
 }
 /* Sobre */
@@ -129,8 +157,7 @@ main h2 {
     background: url(img/back3.jpg);
     background-size: cover;
     background-position: center;
-    
-    
+        
 }
 #destaqueSobre {
     display: none;
@@ -138,6 +165,7 @@ main h2 {
 #textoSobre {
 color: #a10773;
 padding: 0px 10px;
+font-size: 1.2em;
 }
 #textoSobre h2 {
 margin-bottom: 10px;
@@ -176,6 +204,54 @@ height: 191px;
 border: 0;
 }
 
+/* Wireframe */
+
+#wireframe {
+    padding: 50px 0px;
+    background: url();
+    background-size: cover;
+    background-position: center;
+}
+#textoWire {
+    color: #200117;
+    padding: 0px 40px;
+}
+#textoWire h2 {
+    margin-bottom: 10px;
+}
+#textoWire p {
+    margin-bottom: 40px;
+}
+#textoWire span {
+    display: none;
+}
+#qrcode {
+    display: none;
+}
+
+/* conteúdo */
+#conteudo {
+    padding: 25px 0px;
+    background: url(img/fundorosa.jpg);
+    background-size: cover;
+    background-position: center;
+}  
+#conteudo h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+#todos {
+    margin-top: 50px;
+    text-align: center;
+}
+#todos a {
+    text-decoration: none;
+    color: #020202;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
     /* Layout */
@@ -185,7 +261,7 @@ border: 0;
 }
 /* Destaque */
 main h1, main h2 {
-text-shadow: #000 0.05em 0.05em 0.05em;
+text-shadow: #070003 0.05em 0.05em 0.05em;
 }
 /* One Page */
 #video iframe {
@@ -285,6 +361,23 @@ nav ul li a:hover {
 .Flex3 {
     flex-direction: row;
     align-items: center;
+}
+/* Wireframe */
+
+#wireframe {
+    background-attachment: fixed;
+}
+#wireframe span {
+    display: inline;
+    color: #991f1f;
+}
+#qrcode {
+display: inline;
+}
+
+#qrcode img{
+width: 200px;
+height: 180px;
 }
 
 }
