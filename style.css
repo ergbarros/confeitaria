@@ -109,7 +109,7 @@ label {
     position: fixed;
     top: 5px;
     right: 15px;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.8);
 }
 nav ul {
     list-style: none;
@@ -191,7 +191,7 @@ margin-bottom: 10px;
     background-position: center;
     color:#42022e;
     display: Flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     text-align: center;
 }
@@ -199,12 +199,12 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 }
 #onepage p {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 #video iframe {
-width: 300px;
-height: 161px;
+width: 340px;
+height: 191px;
 border: 0;
 }
 
@@ -302,8 +302,8 @@ text-shadow: #070003 0.05em 0.05em 0.05em;
 }
 /* One Page */
 #video iframe {
-    width: 560px;
-    height: 315px;
+    width: 340px;
+    height: 191px;
     }
 
 /* Rodapé */
@@ -406,6 +406,11 @@ nav ul li a:hover {
     margin-right: 20px;
 }
 /* One Page */
+
+#video iframe {
+    width: 560px;
+    height: 315px;
+    }
 
 .Flex3 {
     flex-direction: row;
