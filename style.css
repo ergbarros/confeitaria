@@ -68,7 +68,7 @@ justify-content: space-evenly;
     width: 338px;
     height:450px;
     background: url(img/back12.jpg);
-    
+    background-color: #72154e;
     border: 2px solid #250318;
     border-radius: 25px;
     text-align: center;
@@ -204,8 +204,8 @@ margin-bottom: 10px;
 }
 
 #video iframe {
-width: 340px;
-height: 191px;
+width: 560px;
+height: 315px;
 border: 0;
 }
 
